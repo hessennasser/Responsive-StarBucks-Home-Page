@@ -79,7 +79,7 @@ header a img {
     color: #333;
     font-weight: 600;
 }
-.content .text a{
+.content .text .link{
     display: inline-block;
     margin-top: 20px;
     margin-left: -5px;
@@ -92,7 +92,7 @@ header a img {
     text-decoration: none;
     transition: 0.3s;
 }
-.content .text a:hover{
+.content .text .link:hover{
     background-color: #333;
     color: #24ac73;
 }
@@ -148,4 +148,13 @@ header a img {
 }
 .circle:hover{
     opacity: 0.9;
+}
+.content .text .data-me{
+    position: absolute;
+    bottom: -45%;
+    left: -15%;
+}
+.content .text .data-me .me{
+    background-color: #fff;
+    color: #017143;
 }
